@@ -6984,3 +6984,542 @@ Request URL: /Dropbox/asociacion/web/padron
 Stack Trace:
 #0 C:\xampp\htdocs\Dropbox\asociacion\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-11-22 00:28:18 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /ccir/web/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-22 00:28:51 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /ccir/web/admin
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-22 00:31:01 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /ccir/web/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/full/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/8.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:01 Error: [MissingActionException] Action UsersController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'includes',
+)
+Request URL: /ccir/web/users/includes/get-tweets.php
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/11.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:04 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:07 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/7.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:09 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:11 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/full/4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:13 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/600/6.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:21 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/users/img/content/full/9.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:34 Error: [MissingActionException] Action NoticiasController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'includes',
+)
+Request URL: /ccir/web/noticias/includes/get-tweets.php
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:34 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:34 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/11.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:35 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/8.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:35 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:38 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:40 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/7.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:42 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:44 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:46 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:46 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:46 Error: [MissingActionException] Action NoticiasController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'includes',
+)
+Request URL: /ccir/web/noticias/includes/get-tweets.php
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:46 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/11.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:46 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/8.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:50 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:52 Error: [MissingViewException] View file "C:\xampp\htdocs\ccir\web\app\View\Noticias\lista.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\ccir\\web\\app\\View\\Noticias\\lista.ctp',
+)
+Request URL: /ccir/web/noticias/lista
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-22 00:31:52 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/11.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:52 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:52 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:52 Error: [MissingActionException] Action NoticiasController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'includes',
+)
+Request URL: /ccir/web/noticias/includes/get-tweets.php
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:52 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/8.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:56 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/8.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:56 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/11.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:56 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:56 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:31:56 Error: [MissingActionException] Action NoticiasController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'includes',
+)
+Request URL: /ccir/web/noticias/includes/get-tweets.php
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:32:00 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:32:02 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/7.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:32:04 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:32:06 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:32:08 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/600/6.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:32:16 Error: [MissingActionException] Action NoticiasController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'NoticiasController',
+  'action' => 'img',
+)
+Request URL: /ccir/web/noticias/img/content/full/9.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ccir\web\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NoticiasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-22 00:39:12 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /ccir/web/admin
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-22 00:43:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ccir/web/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-22 00:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /ccir/web/img/noticias/portada-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-22 00:43:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ccir/web/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

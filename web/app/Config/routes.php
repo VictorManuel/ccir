@@ -4,7 +4,7 @@
  *
  * In this file, you set up routes to your controllers and their actions.
  * Routes are very important mechanism that allows you to freely connect
- * different urls to chosen controllers and their actions (functions).
+ * different URLs to chosen controllers and their actions (functions).
  *
  * PHP 5
  *
@@ -19,7 +19,7 @@
  * @link          http://cakephp.org CakePHP(tm) Project
  * @package       app.Config
  * @since         CakePHP(tm) v 0.2.9
- * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 /**
  * Here, we are connecting '/' (base path) to controller called 'Pages',
@@ -28,9 +28,10 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
- * ...and connect the rest of 'Pages' controller's urls.
+ * ...and connect the rest of 'Pages' controller's URLs.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	Router::connect('/admin', array('controller' => 'users', 'action' => 'login'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on
