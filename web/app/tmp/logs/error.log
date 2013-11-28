@@ -7523,3 +7523,13 @@ Request URL: /ccir/web/js/tinymce/tinymce.min.js
 Stack Trace:
 #0 C:\xampp\htdocs\ccir\web\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-11-28 14:38:08 Error: Fatal Error (64): Cannot redeclare LegislacionesController::index() in [C:\xampp\htdocs\camara\ccir\web\app\Controller\LegislacionesController.php, line 20]
+2013-11-28 14:38:08 Error: [FatalErrorException] Cannot redeclare LegislacionesController::index()
+Request URL: /camara/ccir/web/legislaciones
+Stack Trace:
+#0 C:\xampp\htdocs\camara\ccir\web\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\camara\ccir\web\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\camara\ccir\web\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
