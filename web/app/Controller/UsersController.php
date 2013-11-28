@@ -1,7 +1,7 @@
 <?php 
 class UsersController extends AppController {
 
-    public function beforeFilter() {
+  public function beforeFilter() {
     parent::beforeFilter();
      	$this->Auth->allow(array('login')); // Letting users register themselves
      if($this->Session->read('Auth.User')){

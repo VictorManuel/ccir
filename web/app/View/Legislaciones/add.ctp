@@ -1,12 +1,12 @@
 <div class="legislaciones form">
-<?php echo $this->Form->create('Legislacione'); ?>
+<?php echo $this->Form->create('Legislacione',array('type'=>'file')); ?>
 	<fieldset>
 		<legend><?php echo __('Add Legislacione'); ?></legend>
 	<?php
 		echo $this->Form->input('numero');
 		echo $this->Form->input('titulo');
 		echo $this->Form->input('fecha');
-		echo $this->Form->input('documento');
+		echo $this->Form->input('documento',array('type'=>'file'));
 		echo $this->Form->input('descripcion');
 		echo $this->Form->input('legislaciontipo_id');
 	?>

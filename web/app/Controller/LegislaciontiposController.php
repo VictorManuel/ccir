@@ -11,8 +11,21 @@ class LegislaciontiposController extends AppController {
  * index method
  *
  * @return void
- */
+ */	
+	public function beforeFilter() {
+		parent::beforeFilter();
+	    $this->Auth->allow(array('login')); // Letting users register themselves
+	    if($this->Session->read('Auth.User')){
+	     	$this->Auth->allow(array('listado')); // Letting users register themselves
+	    }
+	    #admin options
+	    if($this->Session->read('Auth.User.nivele_id') == 1 ||$this->Session->read('Auth.User.nivele_id') == 2){
+	    	$this->Auth->allow(array('index','edit','add','delete'));
+	    }
+	}
+
 	public function index() {
+		$this->layout = 'backend';
 		$this->Legislaciontipo->recursive = 0;
 		$this->set('legislaciontipos', $this->paginate());
 	}

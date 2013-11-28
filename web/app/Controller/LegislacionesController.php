@@ -6,19 +6,33 @@ App::uses('AppController', 'Controller');
  * @property Legislacione $Legislacione
  */
 class LegislacionesController extends AppController {
-
+	public $components = array('Filer');
 /**
  * index method
  *
  * @return void
  */
-	public function index() {
-		$this->Legislacione->recursive = 0;
-		$this->set('legislaciones', $this->paginate());
+
+	public function beforeFilter() {
+	    parent::beforeFilter();
+	    $this->Auth->allow(array('login')); // Letting users register themselves
+	    if($this->Session->read('Auth.User')){
+	     	$this->Auth->allow(array('listado')); // Letting users register themselves
+	    }
+	    #admin options
+	    if($this->Session->read('Auth.User.nivele_id') == 1 ||$this->Session->read('Auth.User.nivele_id') == 2){
+	    	$this->Auth->allow(array('index','edit','add','delete'));
+	    }
 	}
 
 	public function index() {
 		$this->layout = 'backend';
+		$this->Legislacione->recursive = 0;
+		$this->set('legislaciones', $this->paginate());
+	}
+
+	public function listado() {
+
 		$this->Legislacione->recursive = 0;
 		$this->set('legislaciones', $this->paginate());
 	}
@@ -47,14 +61,22 @@ class LegislacionesController extends AppController {
 	public function add() {
 		$this->layout = 'backend';
 		if ($this->request->is('post')) {
-			$this->Legislacione->create();
-			if ($this->Legislacione->save($this->request->data)) {
-				$this->Session->setFlash(__('The legislacione has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The legislacione could not be saved. Please, try again.'));
+			$legislacion = $this->request->data;
+			$legislacion['Legislacione']['documento'] = $this->Filer->upload($legislacion['Legislacione']['documento'],null,"files/legislaciones"); 
+			if($legislacion['Legislacione']['documento'] != ""){
+				$this->Legislacione->create();
+				if ($this->Legislacione->save($legislacion)) {
+					$this->Session->setFlash(__('La legislacion fue salvada con éxito'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('La legislación no pudo ser guardada. Por favor inténtelo de nuevo.'));
+				}
+			}else{
+				$this->Session->setFlash('Hubo un problema cargando el documento. Por favor inténtelo nuevamente.');
 			}
 		}
+		$legi = $this->Legislacione->Legislaciontipo->find('list',array('fields'=>'Legislaciontipo.nombre'));
+		$this->set('legislaciontipos',$legi);
 	}
 
 /**
