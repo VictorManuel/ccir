@@ -32,7 +32,6 @@ class LegislacionesController extends AppController {
 	}
 
 	public function listado() {
-
 		$this->Legislacione->recursive = 0;
 		$this->set('legislaciones', $this->paginate());
 	}

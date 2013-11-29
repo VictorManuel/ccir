@@ -2,22 +2,18 @@
 	<h2><?php echo __('Legislaciones'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('numero'); ?></th>
 			<th><?php echo $this->Paginator->sort('titulo'); ?></th>
 			<th><?php echo $this->Paginator->sort('fecha'); ?></th>
-			<th><?php echo $this->Paginator->sort('documento'); ?></th>
 			<th><?php echo $this->Paginator->sort('descripcion'); ?></th>
 			<th><?php echo $this->Paginator->sort('legislaciontipo_id'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th class="actions"><?php echo __('Opciones'); ?></th>
 	</tr>
 	<?php foreach ($legislaciones as $legislacione): ?>
 	<tr>
-		<td><?php echo h($legislacione['Legislacione']['id']); ?>&nbsp;</td>
 		<td><?php echo h($legislacione['Legislacione']['numero']); ?>&nbsp;</td>
 		<td><?php echo h($legislacione['Legislacione']['titulo']); ?>&nbsp;</td>
 		<td><?php echo h($legislacione['Legislacione']['fecha']); ?>&nbsp;</td>
-		<td><?php echo h($legislacione['Legislacione']['documento']); ?>&nbsp;</td>
 		<td><?php echo h($legislacione['Legislacione']['descripcion']); ?>&nbsp;</td>
 		<td><?php echo h($legislacione['Legislacione']['legislaciontipo_id']); ?>&nbsp;</td>
 		<td class="actions">
