@@ -17,7 +17,7 @@ class LegislacionesController extends AppController {
 	    parent::beforeFilter();
 	    $this->Auth->allow(array('login')); // Letting users register themselves
 	    if($this->Session->read('Auth.User')){
-	     	$this->Auth->allow(array('listado')); // Letting users register themselves
+	     	$this->Auth->allow(array('lista')); // Letting users register themselves
 	    }
 	    #admin options
 	    if($this->Session->read('Auth.User.nivele_id') == 1 ||$this->Session->read('Auth.User.nivele_id') == 2){
@@ -31,9 +31,12 @@ class LegislacionesController extends AppController {
 		$this->set('legislaciones', $this->paginate());
 	}
 
-	public function listado() {
-		$this->Legislacione->recursive = 0;
-		$this->set('legislaciones', $this->paginate());
+	public function listado($alcance = null,$tipo = null) {
+		$this->Legislacione->recursive = 2;
+		$legislaciones = $this->Legislacione->find('all',array(
+												'conditions' => array('Legislacione.legislacionetipo_id =' => $tipo, "Legislacionetipo.alcance_id ="=> $alcance)
+			));
+		$this->set('legislaciones', $legislaciones);
 	}
 
 /**
